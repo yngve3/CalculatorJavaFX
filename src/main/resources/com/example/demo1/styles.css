@@ -1,0 +1,35 @@
+.text-area {
+    -fx-background-color: #202020;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+.text-area .content{
+    -fx-background-color: #202020;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.text-area:focused .content {
+	-fx-background-color: #202020;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+}
+
+.text-area .text {
+    -fx-text-alignment: right;
+}
+
+.button {
+    -fx-background-color: #3c3c3c;
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #a6a6a6;
+}

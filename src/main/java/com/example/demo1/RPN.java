@@ -2,6 +2,9 @@ package com.example.demo1;
 
 import java.util.Stack;
 
+/**
+ * Класс, реализующий алгоритм вычисления выражений на основе обратной польсой запсиси
+ */
 public class RPN {
 
     public double calculateExpression(String expression) throws Exception {
@@ -15,6 +18,9 @@ public class RPN {
 
     }
 
+    /**
+     * Класс преобразующий поданное на вход выражение в обратную польскую запись
+     */
     public static class RPNParser {
 
         private Stack<Character> stack;
@@ -81,9 +87,10 @@ public class RPN {
         }
     }
 
+    /**
+     * Класс, вычисляющий значение выражения, поданного на вход в виде обратной польской записи
+     */
     public static class RPNCalculator {
-
-        private static final String TAG = "RPNCalculatorLogTag";
 
         public double calculate(String expressionInRPN) throws Exception {
 

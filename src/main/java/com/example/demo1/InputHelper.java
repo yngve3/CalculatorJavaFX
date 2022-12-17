@@ -2,7 +2,6 @@ package com.example.demo1;
 
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
-import javafx.scene.text.Text;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
